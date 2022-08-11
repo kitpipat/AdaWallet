@@ -496,6 +496,14 @@ class CI_Router {
 			include(APPPATH.'route/'.ENVIRONMENT.'/fashsion.php');
 		}
 
+		// ======================= Route AdaWallet ============================
+		if (file_exists(APPPATH.'route/adawallet.php')){
+			include(APPPATH.'route/adawallet.php');
+		}
+		if (file_exists(APPPATH.'route/'.ENVIRONMENT.'/adawallet.php')){
+			include(APPPATH.'route/'.ENVIRONMENT.'/adawallet.php');
+		}
+
 		
 		// =================================================================
 		// Validate & get reserved routes

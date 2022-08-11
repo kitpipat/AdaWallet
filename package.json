@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@line/liff": "^2.21.0",
+    "ajax": "^0.0.4",
+    "bootstrap": "^4.6.1",
+    "bootstrap-icons": "^1.7.2",
+    "jquery": "^3.5.1"
+  }
+}
